@@ -1,0 +1,26 @@
+﻿<div class="row">
+    
+    <h1 id="title" class="text-primary col-8">National Park List</h1>
+    <div class="col-4">
+        <a class="btn btn-outline-info form-control"  asp-controller="NationalPark" asp-action="Upsert">
+            <i class="fa fa-plus"></i>&nbsp;&nbsp; Add New National Park
+        </a>
+    </div>
+
+    <div class="container rounded border m-2 p-2 ">
+        <table id="myTable" class="table table-bordered table-hover table-striped text-center m-1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>State</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+</div>
+@section Scripts{
+    <script src="~/js/NationalPark.js"></script>
+}

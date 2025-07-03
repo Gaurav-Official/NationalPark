@@ -1,0 +1,33 @@
+﻿@model IEnumerable<WebApp_NP.Models.ViewModels.BookingVM>
+
+<div class="container mt-5">
+    <h2 class="text-center text-primary mb-4">Upcoming Bookings</h2>
+
+    <table class="table table-bordered table-striped shadow">
+        <thead class="table-dark">
+            <tr>
+                <th>Park Name</th>
+                <th>Visitor Name</th>
+                <th>Email</th>
+                <th>Booking Date</th>
+                <th>No. of Persons</th>
+                <th>Price</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var booking in Model)
+            {
+                <tr>
+                    <td>@booking.ParkName</td>
+                    <td>@booking.Name</td>
+                    <td>@booking.EmailAddress</td>
+                    <td>@booking.DateOfBooking.ToString("dd MMM yyyy")</td>
+                    <td>@booking.NumberOfPersons</td>
+                    <td>₹@booking.Price</td>
+                    <td>@booking.BookingStatus</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

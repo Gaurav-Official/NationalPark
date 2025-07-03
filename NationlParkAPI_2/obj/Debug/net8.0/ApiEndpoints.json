@@ -1,0 +1,210 @@
+[
+  {
+    "ContainingType": "NationlParkAPI_2.Controllers.AccountController",
+    "Method": "Login",
+    "RelativePath": "api/account/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "NationlParkAPI_2.Models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NationlParkAPI_2.Controllers.AccountController",
+    "Method": "Register",
+    "RelativePath": "api/account/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "NationlParkAPI_2.Models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NationlParkAPI_2.Controllers.BookingController",
+    "Method": "CreateBooking",
+    "RelativePath": "api/Booking",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "NationlParkAPI_2.Models.Booking",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NationlParkAPI_2.Controllers.BookingController",
+    "Method": "GetUpcomingBookings",
+    "RelativePath": "api/Booking/future",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NationlParkAPI_2.Controllers.NationalParkController",
+    "Method": "GetNationalPark",
+    "RelativePath": "api/NationalPark",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NationlParkAPI_2.Controllers.NationalParkController",
+    "Method": "CreateNationalPark",
+    "RelativePath": "api/NationalPark",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nationalParkDto",
+        "Type": "NationlParkAPI_2.Models.DTOs.NationalParkDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NationlParkAPI_2.Controllers.NationalParkController",
+    "Method": "UpdateNationalPark",
+    "RelativePath": "api/NationalPark",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nationalParkDto",
+        "Type": "NationlParkAPI_2.Models.DTOs.NationalParkDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NationlParkAPI_2.Controllers.NationalParkController",
+    "Method": "GetNationalPark",
+    "RelativePath": "api/NationalPark/{nationalParkId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nationalParkId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetNationalPark"
+  },
+  {
+    "ContainingType": "NationlParkAPI_2.Controllers.NationalParkController",
+    "Method": "DeleteNationalPark",
+    "RelativePath": "api/NationalPark/{nationalParkId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nationalParkId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NationlParkAPI_2.Controllers.TrailController",
+    "Method": "GetTrails",
+    "RelativePath": "api/trail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NationlParkAPI_2.Controllers.TrailController",
+    "Method": "CreateTrail",
+    "RelativePath": "api/trail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "trailDto",
+        "Type": "TrailDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NationlParkAPI_2.Controllers.TrailController",
+    "Method": "UpdateTrail",
+    "RelativePath": "api/trail",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "trailDto",
+        "Type": "TrailDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NationlParkAPI_2.Controllers.TrailController",
+    "Method": "GetTrail",
+    "RelativePath": "api/trail/{trailId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "trailId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetTrail"
+  },
+  {
+    "ContainingType": "NationlParkAPI_2.Controllers.TrailController",
+    "Method": "DeleteTrail",
+    "RelativePath": "api/trail/{trailId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "trailId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "NationlParkAPI_2\\NationlParkAPI_2.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "WebApp_NP\\WebApp_NP.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
