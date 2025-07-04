@@ -46,6 +46,8 @@ NationalParkAPI/
 ├── Controllers/
 ├── Data/
 ├── Models/
+├── MappingProfile/
+├── DTOs/
 ├── Repository/
 ├── Services/
 ├── Startup.cs / Program.cs
@@ -60,6 +62,7 @@ Edit
 NationalParkWeb/
 ├── Controllers/
 ├── Models/
+├── Repository/
 ├── Views/
 ├── wwwroot/
 ├── appsettings.json
